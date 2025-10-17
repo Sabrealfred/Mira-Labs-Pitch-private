@@ -10,3 +10,4 @@ export { Slide07InvestmentTerms } from './Slide07InvestmentTerms';
 export { Slide08PlatformBusinessModel } from './Slide08PlatformBusinessModel';
 export { Slide09TechnologyMarketSolution } from './Slide09TechnologyMarketSolution';
 export { Slide10ValuationFramework } from './Slide10ValuationFramework';
+export { Slide11CommunityPartnerships } from './Slide11CommunityPartnerships';

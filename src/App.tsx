@@ -15,7 +15,8 @@ import {
   Slide07InvestmentTerms,
   Slide08PlatformBusinessModel,
   Slide09TechnologyMarketSolution,
-  Slide10ValuationFramework
+  Slide10ValuationFramework,
+  Slide11CommunityPartnerships
 } from './slides';
 
 const MiraLabsPitch = () => {
@@ -34,7 +35,8 @@ const MiraLabsPitch = () => {
     Slide07InvestmentTerms,
     Slide08PlatformBusinessModel,
     Slide09TechnologyMarketSolution,
-    Slide10ValuationFramework
+    Slide10ValuationFramework,
+    Slide11CommunityPartnerships
   ];
 
   const nextSlide = () => {

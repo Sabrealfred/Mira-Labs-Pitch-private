@@ -86,11 +86,11 @@ export const Slide04LeadershipTeam = {
             </div>
             <div>
               <div className="font-semibold text-slate-900 mb-1">Career Highlights</div>
-              <div>Amazon (Sr PM, 2016-2020); One Medical (Director of Product Design, 2014-2015 — led $65M raise to secure profitability pre-IPO); Medistem Laboratories (Product Advisor, acquired by Intrexon for $26M in 2013); Kresus Labs (Head of Product, 2023)</div>
+              <div>Launched L1 Protocol (Head of Product - $415M FDV); Kresus Labs (Head of Product - launched MPC wallet partnering with Worldcoin, Sotheby's, and Chrisitie's); One Medical Group (Director of Product - led $65M raise to establish clear path to profitability pre-IPO); Amazon (Senior Manager UXE - Launched AI foundation models, collaborated with US DoD); Medistem Laboratories (Product Advisor, acquired by Intrexon for $26M in 2013).</div>
             </div>
             <div>
               <div className="font-semibold text-slate-900 mb-1">Key Achievements</div>
-              <div>Co-founded Amazon Blockchain Group; led $65M One Medical financing to cement profitability pre-IPO; guided Medistem through $26M Intrexon exit; drove 400% onboarding improvement at Kresus; launched Autonomys mainnet with a $30M grant program</div>
+              <div>Co-founded Amazon Blockchain Group; Adjunct Advisor, SVA - Red Dot Design Award Winner; One Medical - awarded "Most Innovative Healthtech Company" globally ahead of Apple; Guided Medistem through $26M Intrexon exit; 90% of American's use a product daily that he designed.</div>
             </div>
           </div>
         </div>
@@ -144,6 +144,98 @@ export const Slide04LeadershipTeam = {
             <div className="text-2xl font-light mb-1">15+</div>
             <div className="text-sm text-slate-400 uppercase tracking-wide">Years Combined Finance Experience</div>
           </div>
+        </div>
+      </div>
+
+      <div className="border-t border-slate-200 pt-6">
+        <h3 className="text-base font-semibold text-slate-900 mb-4 uppercase tracking-wide">Advisory Board</h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-xs md:text-sm">
+          <div className="bg-slate-50 border border-slate-200 p-4 rounded">
+            <div className="flex items-center gap-2 mb-2">
+              <div className="w-8 h-8 bg-slate-300 text-white flex items-center justify-center text-xs font-light rounded">
+                TBD
+              </div>
+              <div className="flex-1">
+                <div className="font-semibold text-slate-900 text-sm">Financial Services Advisor</div>
+              </div>
+            </div>
+            <div className="text-xs text-slate-600">
+              <span className="font-medium">Expertise:</span> Swiss regulatory compliance, FINMA relations, institutional asset management
+            </div>
+          </div>
+
+          <div className="bg-slate-50 border border-slate-200 p-4 rounded">
+            <div className="flex items-center gap-2 mb-2">
+              <div className="w-8 h-8 bg-slate-300 text-white flex items-center justify-center text-xs font-light rounded">
+                TBD
+              </div>
+              <div className="flex-1">
+                <div className="font-semibold text-slate-900 text-sm">Blockchain Technology Advisor</div>
+              </div>
+            </div>
+            <div className="text-xs text-slate-600">
+              <span className="font-medium">Expertise:</span> DeFi protocol architecture, smart contract security, Web3 infrastructure
+            </div>
+          </div>
+
+          <div className="bg-slate-50 border border-slate-200 p-4 rounded">
+            <div className="flex items-center gap-2 mb-2">
+              <div className="w-8 h-8 bg-slate-300 text-white flex items-center justify-center text-xs font-light rounded">
+                TBD
+              </div>
+              <div className="flex-1">
+                <div className="font-semibold text-slate-900 text-sm">Quantitative Trading Advisor</div>
+              </div>
+            </div>
+            <div className="text-xs text-slate-600">
+              <span className="font-medium">Expertise:</span> HFT strategies, algorithmic trading systems, risk management frameworks
+            </div>
+          </div>
+
+          <div className="bg-slate-50 border border-slate-200 p-4 rounded">
+            <div className="flex items-center gap-2 mb-2">
+              <div className="w-8 h-8 bg-slate-300 text-white flex items-center justify-center text-xs font-light rounded">
+                TBD
+              </div>
+              <div className="flex-1">
+                <div className="font-semibold text-slate-900 text-sm">Legal & Compliance Advisor</div>
+              </div>
+            </div>
+            <div className="text-xs text-slate-600">
+              <span className="font-medium">Expertise:</span> Cross-border digital asset regulation, securities law, AML/KYC compliance
+            </div>
+          </div>
+
+          <div className="bg-slate-50 border border-slate-200 p-4 rounded">
+            <div className="flex items-center gap-2 mb-2">
+              <div className="w-8 h-8 bg-slate-300 text-white flex items-center justify-center text-xs font-light rounded">
+                TBD
+              </div>
+              <div className="flex-1">
+                <div className="font-semibold text-slate-900 text-sm">Institutional Sales Advisor</div>
+              </div>
+            </div>
+            <div className="text-xs text-slate-600">
+              <span className="font-medium">Expertise:</span> Family office relations, alternative investment distribution, investor relations
+            </div>
+          </div>
+
+          <div className="bg-slate-50 border border-slate-200 p-4 rounded">
+            <div className="flex items-center gap-2 mb-2">
+              <div className="w-8 h-8 bg-slate-300 text-white flex items-center justify-center text-xs font-light rounded">
+                TBD
+              </div>
+              <div className="flex-1">
+                <div className="font-semibold text-slate-900 text-sm">Product & Growth Advisor</div>
+              </div>
+            </div>
+            <div className="text-xs text-slate-600">
+              <span className="font-medium">Expertise:</span> FinTech product strategy, go-to-market execution, user acquisition
+            </div>
+          </div>
+        </div>
+        <div className="mt-4 text-xs text-slate-500 italic">
+          Advisory board positions are currently being filled with industry leaders across finance, blockchain, and regulatory domains to ensure strategic guidance and market credibility.
         </div>
       </div>
     </div>
