@@ -279,6 +279,19 @@ body {
     font-size: 16px !important;
   }
 
+  /* Fix for mobile browser address bar hiding */
+  #root {
+    height: 100dvh; /* Use dynamic viewport height */
+    min-height: -webkit-fill-available;
+  }
+
+  /* Ensure navigation bar is always visible */
+  .bg-slate-900.border-t {
+    position: sticky !important;
+    bottom: 0 !important;
+    z-index: 50 !important;
+  }
+
   /* Larger text sizes for mobile */
   .text-xs {
     font-size: 0.875rem !important;
