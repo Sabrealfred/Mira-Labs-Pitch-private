@@ -2,7 +2,7 @@ import { Building2, Briefcase, Lock, ArrowLeftRight } from 'lucide-react';
 import type { SlideDefinition } from '../types/slides';
 
 export const Slide08PlatformBusinessModel = {
-  type: 'content',
+  type: 'content' as const,
   title: 'Platform Business Model',
   subtitle: 'Future revenue optionality once regulatory platform scales (not in base case)',
   content: (
