@@ -1,5 +1,5 @@
 export const Slide11CommunityPartnerships = {
-  type: 'content',
+  type: 'content' as const,
   title: 'Community Development & Strategic Partnerships',
   subtitle: 'Building a robust ecosystem through strategic alliances and community engagement',
   content: (

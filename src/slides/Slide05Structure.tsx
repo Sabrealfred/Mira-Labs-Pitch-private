@@ -69,7 +69,7 @@ const renderArrowRight = ({
   </div>
 );
 export const Slide05Structure = {
-  type: 'content',
+  type: 'content' as const,
   title: 'Structure',
   subtitle: 'How the Swiss acquisition, global feeders, and SAFE vehicle align capital flows',
   content: (
