@@ -1,3 +1,5 @@
+import type { SlideDefinition } from '../types/slides';
+
 export const Slide01Title = {
   type: 'title',
   content: (
@@ -30,4 +32,4 @@ export const Slide01Title = {
       </div>
     </div>
   )
-};
+} satisfies SlideDefinition;

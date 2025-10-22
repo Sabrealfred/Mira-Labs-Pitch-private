@@ -1,3 +1,5 @@
+import type { SlideDefinition } from '../types/slides';
+
 export const Slide04CompetitiveLandscape = {
   type: 'content',
   title: 'Competitive Landscape',
@@ -103,4 +105,4 @@ export const Slide04CompetitiveLandscape = {
       </div>
     </div>
   )
-};
+} satisfies SlideDefinition;

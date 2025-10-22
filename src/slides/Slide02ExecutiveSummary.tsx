@@ -1,6 +1,7 @@
 import { CheckCircle } from 'lucide-react';
 import CountUp from 'react-countup';
 import { motion } from 'framer-motion';
+import type { SlideDefinition } from '../types/slides';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -113,4 +114,4 @@ export const Slide02ExecutiveSummary = {
       </div>
     </div>
   )
-};
+} satisfies SlideDefinition;

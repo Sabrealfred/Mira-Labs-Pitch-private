@@ -1,4 +1,5 @@
 import { CheckCircle } from 'lucide-react';
+import type { SlideDefinition } from '../types/slides';
 
 export const Slide09TechnologyMarketSolution = {
   type: 'content',
@@ -136,4 +137,4 @@ export const Slide09TechnologyMarketSolution = {
       </div>
     </div>
   )
-};
+} satisfies SlideDefinition;

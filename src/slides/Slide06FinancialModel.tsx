@@ -1,4 +1,5 @@
 import { RevenueChart } from '../components/RevenueChart';
+import type { SlideDefinition } from '../types/slides';
 
 export const Slide06FinancialModel = {
   type: 'content',
@@ -170,4 +171,4 @@ export const Slide06FinancialModel = {
       </div>
     </div>
   )
-};
+} satisfies SlideDefinition;

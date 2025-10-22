@@ -1,3 +1,5 @@
+import type { SlideDefinition } from '../types/slides';
+
 export const Slide03StrategicRationale = {
   type: 'content',
   title: 'Strategic Rationale',
@@ -195,4 +197,4 @@ export const Slide03StrategicRationale = {
 
     </div>
   )
-};
+} satisfies SlideDefinition;

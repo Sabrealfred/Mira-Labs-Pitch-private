@@ -1,4 +1,5 @@
-import { Building2, Briefcase, Lock } from 'lucide-react';
+import { Building2, Briefcase, Lock, ArrowLeftRight } from 'lucide-react';
+import type { SlideDefinition } from '../types/slides';
 
 export const Slide08PlatformBusinessModel = {
   type: 'content',
@@ -11,11 +12,11 @@ export const Slide08PlatformBusinessModel = {
           Future Revenue Optionality
         </div>
         <p className="text-base text-blue-900 leading-relaxed">
-          Core projections (Slide 6) consider only asset management fees. The Luxembourg platform unlocks incremental revenue beginning in Year 2 once the regulatory transfer is complete, the $72M (~CHF 60M) AUM base is stabilized, and pilot compartments are validated.
+          Core projections (Slide 6) consider only asset management fees. The Luxembourg platform unlocks incremental revenue beginning in Year 2 once the regulatory transfer is complete, the $72M (~CHF 60M) AUM base is stabilized, and pilot compartments are validated. Additional optionality includes Digital Asset Tokenization (DATs) to bridge TradFi and crypto markets—bringing crypto products to traditional allocators and TradFi products to digital asset holders via regulated, exchange-listed vehicles.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
         <div className="border border-slate-200 p-4 bg-slate-50 space-y-3">
           <div className="flex items-center gap-3 mb-4">
             <Building2 className="text-blue-600" size={24} />
@@ -49,6 +50,18 @@ export const Slide08PlatformBusinessModel = {
             <li><span className="font-semibold">Model:</span> $50-150K setup + $2-5K/month retainer (custody, compliance, reporting).</li>
             <li><span className="font-semibold">Clients:</span> Family offices, RIAs, and digital asset funds seeking regulated infrastructure.</li>
             <li><span className="font-semibold">Goal:</span> Accelerate onboarding and deepen cross-sell relationships.</li>
+          </ul>
+        </div>
+
+        <div className="border border-slate-200 p-4 space-y-3">
+          <div className="flex items-center gap-3 mb-4">
+            <ArrowLeftRight className="text-orange-600" size={24} />
+            <h3 className="text-base font-semibold uppercase tracking-wide text-slate-900">Digital Asset Tokenization</h3>
+          </div>
+          <ul className="space-y-2 text-base text-slate-700 leading-relaxed">
+            <li><span className="font-semibold">Bridge Strategy:</span> Crypto products to TradFi (exchange-listed DATs) and TradFi products to crypto holders (tokenized securities).</li>
+            <li><span className="font-semibold">Revenue:</span> 1.5% mgmt fee + 0.5% issuance + transaction fees on secondary trading.</li>
+            <li><span className="font-semibold">Path:</span> SPAC/public listing (2026-27) enables institutional liquidity and regulatory credibility for cross-market product distribution.</li>
           </ul>
         </div>
       </div>
@@ -109,4 +122,4 @@ export const Slide08PlatformBusinessModel = {
       </p>
     </div>
   )
-};
+} satisfies SlideDefinition;

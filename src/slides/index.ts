@@ -5,6 +5,7 @@ export { Slide03StrategicRationale } from './Slide03StrategicRationale';
 export { Slide04CompetitiveLandscape } from './Slide04CompetitiveLandscape';
 export { Slide04LeadershipTeam } from './Slide04LeadershipTeam';
 export { Slide05InstitutionalInfrastructure } from './Slide05InstitutionalInfrastructure';
+export { Slide05Structure } from './Slide05Structure';
 export { Slide06FinancialModel } from './Slide06FinancialModel';
 export { Slide07InvestmentTerms } from './Slide07InvestmentTerms';
 export { Slide08PlatformBusinessModel } from './Slide08PlatformBusinessModel';

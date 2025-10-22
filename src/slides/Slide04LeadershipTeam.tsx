@@ -1,3 +1,5 @@
+import type { SlideDefinition } from '../types/slides';
+
 export const Slide04LeadershipTeam = {
   type: 'content',
   title: 'Leadership Team',
@@ -240,4 +242,4 @@ export const Slide04LeadershipTeam = {
       </div>
     </div>
   )
-};
+} satisfies SlideDefinition;
